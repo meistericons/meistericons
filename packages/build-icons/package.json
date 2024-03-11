@@ -19,9 +19,9 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "build:icons-nodes": "bun run ./src/generateIconNodes.ts",
+    "build:icons": "bun run ./index.ts",
     "bundle": "rollup -c",
-    "build": "bundle run build:icons && bun run bundle"
+    "build": "bun run build:icons-nodes && bun run bundle"
   },
   "files": [
     "lib"
@@ -33,11 +33,9 @@
     "import": "./lib/es/build-icons.es.min.mjs",
     "require": "./lib/cjs/build-icons.cjs.min.cjs"
   },
-  "dependencies": {
-    "@meistericons/build-tools": "workspace:*"
-  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
+    "@meistericons/build-tools": "workspace:*",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
     "@types/node": "^20.11.25",

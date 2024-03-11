@@ -32,9 +32,9 @@ readdirSync(iconsDir).forEach((category: string) => {
 
             writeFileSync(resolve(fontIconsDir, `${iconFile}.svg`), svgCode, 'utf-8')
         })
+        totalIcons++
     }
     console.log(`Generated icon fonts for - ${category}`)
-    totalIcons++
 })
 
-console.log(`Generated ${totalIcons} icon fonts.`)
+console.log(`Generated ${totalIcons} category icon fonts.`)
