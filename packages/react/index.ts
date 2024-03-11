@@ -6,4 +6,4 @@ export {
   type IconNode,
   type MeisterIconsProps,
   type MeisterIcon,
-} from "./src/createMeisterIcons";
+} from "./src/createMeistericons";

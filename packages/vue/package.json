@@ -1,0 +1,54 @@
+{
+  "name": "@meistericons/vue",
+  "version": "0.0.1",
+  "description": "Vue icon library for meistericons.",
+  "bugs": {
+    "url": "https://github.com/rahulrajdahal/meistericons/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "main": "./lib/cjs/mni-vue.cjs.min.cjs",
+  "main:umd": "./lib/umd/mni-vue.umd.min.js",
+  "module": "./lib/es/mni-vue.es.min.js",
+  "repository": {
+    "url": "https://github.com/rahulrajdahal/meistericons.git",
+    "type": "git",
+    "directory": "/packages/vue"
+  },
+  "scripts": {
+    "build:icons": "rm -r ./icons && build-icons --pkg=../vue",
+    "bundle": "rollup -c",
+    "build": "bun run build:icons && bun run bundle"
+  },
+  "dependencies": {
+    "@meistericons/build-icons": "workspace:*",
+    "@meistericons/build-tools": "workspace:*"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.21"
+  },
+  "exports": {
+    "import": "./lib/es/mni-vue.es.min.mjs",
+    "require": "./lib/cjs/mni-vue.cjs.min.cjs"
+  },
+  "keywords": [
+    "meistericons",
+    "mni",
+    "icons",
+    "icon-library",
+    "vector-icons",
+    "svg-icons",
+    "vue-icons"
+  ],
+  "author": "Rahul Raj Dahal",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.12.1",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "rollup-plugin-visualizer": "^5.12.0"
+  }
+}
