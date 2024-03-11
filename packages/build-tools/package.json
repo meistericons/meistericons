@@ -1,0 +1,40 @@
+{
+  "name": "@meistericons/build-tools",
+  "version": "1.0.0",
+  "description": "build tools for meistericons. Intended for internal use.",
+  "author": "Rahul Raj Dahal",
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/rahulrajdahal/meistericons.git",
+    "type": "git",
+    "directory": "/packages/build-tools/"
+  },
+  "bugs": {
+    "url": "https://github.com/rahulrajdahal/meistericons/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "bundle": "rollup -c"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "./lib/cjs/build-tools.cjs.min.cjs",
+  "main:umd": "./lib/umd/build-tools.umd.min.js",
+  "module": "./lib/es/build-tools.es.min.js",
+  "exports": {
+    "import": "./lib/es/build-tools.es.min.mjs",
+    "require": "./lib/cjs/build-tools.cjs.min.cjs"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/node": "^20.11.25",
+    "rollup": "^4.12.1",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "rollup-plugin-visualizer": "^5.12.0"
+  }
+}
