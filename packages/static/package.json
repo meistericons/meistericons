@@ -16,12 +16,15 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "bundle": "rollup -c"
+    "fonts": "bun run ./src/generateFonts.ts && fantasticon -n mni -p mni ../fontIcons -o ./fonts && rm -r ../fontIcons",
+    "bundle": "rollup -c",
+    "build": "pnpm run fonts && pnpm run bundle"
   },
   "files": [
     "fonts",
     "lib",
-    "icons"
+    "icons",
+    "icon-nodes.json"
   ],
   "main": "./lib/cjs/static.cjs.min.cjs",
   "main:umd": "./lib/umd/static.umd.min.js",
@@ -31,12 +34,14 @@
     "require": "./lib/cjs/static.cjs.min.cjs"
   },
   "devDependencies": {
+    "@meistericons/build-tools":"workspace:*",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
     "@types/node": "^20.11.25",
     "rollup": "^4.12.1",
     "rollup-plugin-esbuild": "^6.1.1",
+    "fantasticon": "^2.0.0",
     "rollup-plugin-visualizer": "^5.12.0"
   }
 }
