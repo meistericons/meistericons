@@ -1,13 +1,13 @@
 {
-  "name": "@meistericons/build-tools",
+  "name": "@meistericons/static",
   "version": "0.0.1",
-  "description": "build tools for meistericons. Intended for internal use.",
+  "description": "Static assets for meistericons.",
   "author": "Rahul Raj Dahal",
   "license": "ISC",
   "repository": {
     "url": "https://github.com/rahulrajdahal/meistericons.git",
     "type": "git",
-    "directory": "/packages/build-tools/"
+    "directory": "/packages/static/"
   },
   "bugs": {
     "url": "https://github.com/rahulrajdahal/meistericons/issues"
@@ -19,14 +19,16 @@
     "bundle": "rollup -c"
   },
   "files": [
-    "lib"
+    "fonts",
+    "lib",
+    "icons"
   ],
-  "main": "./lib/cjs/build-tools.cjs.min.cjs",
-  "main:umd": "./lib/umd/build-tools.umd.min.js",
-  "module": "./lib/es/build-tools.es.min.mjs",
+  "main": "./lib/cjs/static.cjs.min.cjs",
+  "main:umd": "./lib/umd/static.umd.min.js",
+  "module": "./lib/es/static.es.min.mjs",
   "exports": {
-    "import": "./lib/es/build-tools.es.min.mjs",
-    "require": "./lib/cjs/build-tools.cjs.min.cjs"
+    "import": "./lib/es/static.es.min.mjs",
+    "require": "./lib/cjs/static.cjs.min.cjs"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",

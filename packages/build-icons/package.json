@@ -1,0 +1,49 @@
+{
+  "name": "@meistericons/build-icons",
+  "version": "0.0.1",
+  "description": "build icon tool for meistericons. Intended for internal use.",
+  "author": "Rahul Raj Dahal",
+  "license": "ISC",
+  "bin": {
+    "build-icons": "./lib/es/build-icons.es.min.mjs"
+  },
+  "repository": {
+    "url": "https://github.com/rahulrajdahal/meistericons.git",
+    "type": "git",
+    "directory": "/packages/build-icons/"
+  },
+  "bugs": {
+    "url": "https://github.com/rahulrajdahal/meistericons/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build:icons-nodes": "bun run ./src/generateIconNodes.ts",
+    "bundle": "rollup -c",
+    "build": "bundle run build:icons && bun run bundle"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "./lib/cjs/build-icons.cjs.min.cjs",
+  "main:umd": "./lib/umd/build-icons.umd.min.js",
+  "module": "./lib/es/build-icons.es.min.mjs",
+  "exports": {
+    "import": "./lib/es/build-icons.es.min.mjs",
+    "require": "./lib/cjs/build-icons.cjs.min.cjs"
+  },
+  "dependencies": {
+    "@meistericons/build-tools": "workspace:*"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/node": "^20.11.25",
+    "rollup": "^4.12.1",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "rollup-plugin-visualizer": "^5.12.0",
+    "svgson": "^5.3.1"
+  }
+}
