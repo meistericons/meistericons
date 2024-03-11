@@ -1,4 +1,4 @@
-import { generateExportFile, generateIconFile, generateTypes, getCurrentDir, toKebabCase } from '@mni/build-tools';
+import { generateExportFile, generateIconFile, generateTypes, getCurrentDir, toKebabCase } from '@meistericons/build-tools';
 import * as icons from '@meistericons/static';
 import getCliArguments from 'minimist';
 import crypto from 'node:crypto';
@@ -14,7 +14,7 @@ const targetDir = path.resolve(currentDir, `../../${pkg}`);
 
 
 
-if (existsSync(targetDir)) {
+if (existsSync(`${targetDir}/icons`)) {
     unlinkSync(`${targetDir}/icons/index.ts`)
     unlinkSync(`${targetDir}/lib/meistericons-${pkg}.ts`)
 }

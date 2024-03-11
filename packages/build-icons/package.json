@@ -19,9 +19,9 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "build:icons": "bun run ./index.ts",
+    "build:icons": "bun run ./index.ts --pkg=../react",
     "bundle": "rollup -c",
-    "build": "bun run build:icons-nodes && bun run bundle"
+    "build": "bun run build:icons && bun run bundle"
   },
   "files": [
     "lib"
@@ -34,11 +34,14 @@
     "require": "./lib/cjs/build-icons.cjs.min.cjs"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^25.0.7",
     "@meistericons/build-tools": "workspace:*",
+    "@meistericons/static": "workspace:*",
+    "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
-    "@types/node": "^20.11.25",
+    "@types/minimist": "^1.2.5",
+    "@types/node": "^20.11.26",
+    "minimist": "^1.2.8",
     "rollup": "^4.12.1",
     "rollup-plugin-esbuild": "^6.1.1",
     "rollup-plugin-visualizer": "^5.12.0",

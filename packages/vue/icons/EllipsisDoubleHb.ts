@@ -1,0 +1,8 @@
+
+  import createMeisterIcons from '../src/createMeisterIcons';
+
+  const EllipsisDoubleHb = createMeisterIcons("ellipsis-double-hb", [["path",{"fill":"currentColor","d":"M17.9 10a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z","key":"164c0aac7d939149174264fcd86b225c984e3750"}],["path",{"fill":"currentColor","d":"M17.9 7.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0ZM12 10a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z","key":"f2392ede0eca66d1487ef447710d4365d5453135"}],["path",{"fill":"currentColor","d":"M12 7.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0ZM6.1 10a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z","key":"cd861057c95b6107a6bac75cb8a4a8b2f5993371"}],["path",{"fill":"currentColor","d":"M6.1 7.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0ZM17.9 17a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z","key":"ec943c4080aa0f27f7b27c7f5315157ce551d0f1"}],["path",{"fill":"currentColor","d":"M17.9 14.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0ZM12 17a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z","key":"591dfaffa29769fe83141310f6c13ea1f5c736ef"}],["path",{"fill":"currentColor","d":"M12 14.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0ZM6.1 17a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z","key":"25675507150344a93380be1fc7d54d5d00eb43dc"}],["path",{"fill":"currentColor","d":"M6.1 14.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0Z","key":"e3a6796afa0b0c3d77a3d1b1033b6815c1f3be7e"}]])
+
+
+  export default EllipsisDoubleHb
+  

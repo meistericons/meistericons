@@ -8,16 +8,16 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "main": "./lib/cjs/mni-vue.cjs.min.cjs",
-  "main:umd": "./lib/umd/mni-vue.umd.min.js",
-  "module": "./lib/es/mni-vue.es.min.js",
+  "main": "./lib/cjs/vue.cjs.min.cjs",
+  "main:umd": "./lib/umd/vue.umd.min.js",
+  "module": "./lib/es/vue.es.min.js",
   "repository": {
     "url": "https://github.com/rahulrajdahal/meistericons.git",
     "type": "git",
     "directory": "/packages/vue"
   },
   "scripts": {
-    "build:icons": "rm -r ./icons && build-icons --pkg=../vue",
+    "build:icons": "build-icons --pkg=../vue",
     "bundle": "rollup -c",
     "build": "bun run build:icons && bun run bundle"
   },
@@ -29,8 +29,8 @@
     "vue": "^3.4.21"
   },
   "exports": {
-    "import": "./lib/es/mni-vue.es.min.mjs",
-    "require": "./lib/cjs/mni-vue.cjs.min.cjs"
+    "import": "./lib/es/vue.es.min.mjs",
+    "require": "./lib/cjs/vue.cjs.min.cjs"
   },
   "keywords": [
     "meistericons",
@@ -44,6 +44,8 @@
   "author": "Rahul Raj Dahal",
   "license": "ISC",
   "devDependencies": {
+    "@meistericons/build-tools": "workspace:*",
+    "@meistericons/build-icons": "workspace:*",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",

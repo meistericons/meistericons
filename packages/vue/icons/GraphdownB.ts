@@ -1,0 +1,8 @@
+
+  import createMeisterIcons from '../src/createMeisterIcons';
+
+  const GraphdownB = createMeisterIcons("graphdown-b", [["path",{"fill":"currentColor","d":"M14.13 8.42a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 0 1-1.06-1.06l3-3a.75.75 0 0 1 1.06 0Zm-8.76.9a.75.75 0 0 1 1.06 0l2.1 2.1a.75.75 0 0 1-1.06 1.06l-2.1-2.1a.75.75 0 0 1 0-1.06Zm9.876-.831a.75.75 0 0 1 1.015.307l3 5.6a.75.75 0 1 1-1.322.708l-3-5.6a.75.75 0 0 1 .307-1.015Z","key":"d39abcdd0ac2d4fedf17aa283634ba12c9c3ab13"}],["path",{"fill":"currentColor","d":"M4.6 10.45a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4Z","key":"ec9f1d4918acbc541db0010c6da45bbd1fa663cf"}],["path",{"fill":"currentColor","d":"M4.6 7.8a.95.95 0 1 0 0 1.9.95.95 0 0 0 0-1.9Zm-2.45.95a2.45 2.45 0 1 1 4.9 0 2.45 2.45 0 0 1-4.9 0Zm7.15 6.1a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4Z","key":"ba7d4eac6534b378e908908b7a11054ddffaa19d"}],["path",{"fill":"currentColor","d":"M9.3 12.2a.95.95 0 1 0 0 1.9.95.95 0 0 0 0-1.9Zm-2.45.95a2.45 2.45 0 1 1 4.9 0 2.45 2.45 0 0 1-4.9 0Zm7.95-3.7a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4Z","key":"270d5f0d103156847c82e5b8baa572ab7c0bae9a"}],["path",{"fill":"currentColor","d":"M14.8 6.8a.95.95 0 1 0 0 1.9.95.95 0 0 0 0-1.9Zm-2.45.95a2.45 2.45 0 1 1 4.9 0 2.45 2.45 0 0 1-4.9 0Zm7.05 10.2a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4Z","key":"fb50f3d338a059005ac6bbdae63a1ce50d92a09b"}],["path",{"fill":"currentColor","d":"M19.4 15.3a.95.95 0 1 0 0 1.9.95.95 0 0 0 0-1.9Zm-2.45.95a2.45 2.45 0 1 1 4.9 0 2.45 2.45 0 0 1-4.9 0Z","key":"5bea01f0bc1002eb4f01a50d3c02043d2bcea579"}]])
+
+
+  export default GraphdownB
+  
