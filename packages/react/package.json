@@ -1,0 +1,51 @@
+{
+  "name": "@meistericons/react",
+  "version": "0.0.1",
+  "description": "React icon library of meistericons.",
+  "author": "Rahul Raj Dahal",
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/rahulrajdahal/meistericons.git",
+    "type": "git",
+    "directory": "/packages/react/"
+  },
+  "bugs": {
+    "url": "https://github.com/rahulrajdahal/meistericons/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build:icons": "rm -r ./icons && build-icons --pkg=../react",
+    "bundle": "rollup -c",
+    "build": "bun run build:icons && bun run bundle"
+  },
+  "main": "./lib/cjs/react.cjs.min.cjs",
+  "main:umd": "./lib/umd/react.umd.min.js",
+  "module": "./lib/es/react.es.min.mjs",
+  "keywords": [
+    "meistericons",
+    "mni",
+    "icons",
+    "icon-library",
+    "vector-icons",
+    "svg-icons",
+    "react-icons"
+  ],
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@meistericons/build-tools": "workspace:*",
+    "@meistericons/build-icons": "workspace:*",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/node": "^20.11.25",
+    "rollup": "^4.12.1",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "fantasticon": "^2.0.0",
+    "rollup-plugin-visualizer": "^5.12.0"
+  }
+}
