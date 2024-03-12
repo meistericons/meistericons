@@ -16,6 +16,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
     "build:icon-nodes": "bun run ./src/generateIconNodes.ts",
     "bundle": "rollup -c",
     "build": "pnpm i && bun run build:icon-nodes && bun bundle"
@@ -39,6 +41,7 @@
     "rollup": "^4.12.1",
     "rollup-plugin-esbuild": "^6.1.1",
     "rollup-plugin-visualizer": "^5.12.0",
-    "svgson": "^5.3.1"
+    "svgson": "^5.3.1",
+    "vitest": "^1.3.1"
   }
 }

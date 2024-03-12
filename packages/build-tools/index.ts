@@ -21,7 +21,7 @@ export const getCurrentDir = (filePath: string) =>
 export const readIconFiles = (iconDir: string) =>
     readdirSync(iconDir).map((iconFile) => iconFile.replace(/.svg/, ""));
 
-export const readSvgCode = async (file: string) =>
+export const readSvgCode =  (file: string) =>
     readFileSync(file)
 
 export const readAllMetadata = (dir: string) =>
