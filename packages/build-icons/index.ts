@@ -12,8 +12,6 @@ const { pkg } = getCliArguments(process.argv.slice(2))
 
 const targetDir = path.resolve(currentDir, `../../${pkg}`);
 
-
-
 if (existsSync(`${targetDir}/icons`)) {
     unlinkSync(`${targetDir}/icons`)
     unlinkSync(`${targetDir}/lib/meistericons-${pkg}.ts`)
