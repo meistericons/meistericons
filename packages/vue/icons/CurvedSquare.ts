@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const CurvedSquare = createMeisterIcons("curved-square", [["path",{"fill":"currentColor","d":"M9 3.75C6.114 3.75 3.75 6.114 3.75 9v6c0 2.886 2.364 5.25 5.25 5.25h6c2.886 0 5.25-2.364 5.25-5.25V9c0-2.886-2.364-5.25-5.25-5.25H9ZM2.25 9c0-3.714 3.036-6.75 6.75-6.75h6c3.714 0 6.75 3.036 6.75 6.75v6c0 3.714-3.036 6.75-6.75 6.75H9c-3.714 0-6.75-3.036-6.75-6.75V9Z","key":"a25d1bf7e84e8d8c064328698cf0bb95e31ff7b8"}]])
+  const CurvedSquare = createMeisterIcons("curved-square", [["path",{"fill":"currentColor","d":"M9 3.75C6.114 3.75 3.75 6.114 3.75 9v6c0 2.886 2.364 5.25 5.25 5.25h6c2.886 0 5.25-2.364 5.25-5.25V9c0-2.886-2.364-5.25-5.25-5.25H9ZM2.25 9c0-3.714 3.036-6.75 6.75-6.75h6c3.714 0 6.75 3.036 6.75 6.75v6c0 3.714-3.036 6.75-6.75 6.75H9c-3.714 0-6.75-3.036-6.75-6.75V9Z","key":"6fd289dddd5acc98f17e4dbff2b12a3e9c5976b4"}]])
 
 
   export default CurvedSquare

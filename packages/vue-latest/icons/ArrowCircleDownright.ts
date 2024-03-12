@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const ArrowCircleDownright = createMeisterIcons("arrow-circle-downright", [["path",{"fill":"currentColor","d":"M20.25 12a8.25 8.25 0 1 0-16.5 0 8.25 8.25 0 0 0 16.5 0ZM12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12 6.615 2.25 12 2.25Z","key":"752453aa96c580acadb2ceee7cd7f3954b6bd967"}],["path",{"fill":"currentColor","d":"M9.162 9.55a.75.75 0 0 1 1.061 0l4.667 4.666a.75.75 0 0 1-1.06 1.061L9.161 10.61a.75.75 0 0 1 0-1.06Z","key":"6e386649d83367d2eb833bcff3bbdc4753b0dfdf"}],["path",{"fill":"currentColor","d":"M14.643 10.037a.75.75 0 0 1 .75.75v3.536c0 .697-.548 1.245-1.245 1.245h-3.536a.75.75 0 0 1 0-1.5h3.28v-3.28a.75.75 0 0 1 .75-.75Z","key":"2f772e1c72b9e0a97e9cd7780b8371c6697f8608"}]])
+  const ArrowCircleDownright = createMeisterIcons("arrow-circle-downright", [["path",{"fill":"currentColor","d":"M20.25 12a8.25 8.25 0 1 0-16.5 0 8.25 8.25 0 0 0 16.5 0ZM12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12 6.615 2.25 12 2.25Z","key":"d8734de4ebf80528d5c4b57283a73f27eb7a2dde"}],["path",{"fill":"currentColor","d":"M9.162 9.55a.75.75 0 0 1 1.061 0l4.667 4.666a.75.75 0 0 1-1.06 1.061L9.161 10.61a.75.75 0 0 1 0-1.06Z","key":"3f09e54c44fd1b4dcf729464485a8536ac4fffdf"}],["path",{"fill":"currentColor","d":"M14.643 10.037a.75.75 0 0 1 .75.75v3.536c0 .697-.548 1.245-1.245 1.245h-3.536a.75.75 0 0 1 0-1.5h3.28v-3.28a.75.75 0 0 1 .75-.75Z","key":"c94ac1e09329d13361224e3b4cbacffdaa69763a"}]])
 
 
   export default ArrowCircleDownright

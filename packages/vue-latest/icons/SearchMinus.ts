@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const SearchMinus = createMeisterIcons("search-minus", [["path",{"fill":"currentColor","d":"M11.55 4.3a7.25 7.25 0 1 0 0 14.5 7.25 7.25 0 0 0 0-14.5ZM2.8 11.55a8.75 8.75 0 1 1 15.445 5.634l2.735 2.736a.75.75 0 0 1-1.06 1.06l-2.736-2.735A8.75 8.75 0 0 1 2.8 11.55Zm5.75-.75a.75.75 0 0 0 0 1.5h6a.75.75 0 1 0 0-1.5h-6Z","key":"7b9cd6985bc652fdf4e0dd2b33659e982c2ebb8e"}]])
+  const SearchMinus = createMeisterIcons("search-minus", [["path",{"fill":"currentColor","d":"M11.55 4.3a7.25 7.25 0 1 0 0 14.5 7.25 7.25 0 0 0 0-14.5ZM2.8 11.55a8.75 8.75 0 1 1 15.445 5.634l2.735 2.736a.75.75 0 0 1-1.06 1.06l-2.736-2.735A8.75 8.75 0 0 1 2.8 11.55Zm5.75-.75a.75.75 0 0 0 0 1.5h6a.75.75 0 1 0 0-1.5h-6Z","key":"5c8479dcc062ace66cd8228e747043548fa092b2"}]])
 
 
   export default SearchMinus

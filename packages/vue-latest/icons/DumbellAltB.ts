@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const DumbellAltB = createMeisterIcons("dumbell-alt-b", [["path",{"fill":"currentColor","d":"M7.2 21a4.3 4.3 0 1 0 0-8.6 4.3 4.3 0 0 0 0 8.6Z","key":"5ee400353c477320fff2caf6a804127755da89c2"}],["path",{"fill":"currentColor","d":"M7.2 13.15a3.55 3.55 0 1 0 0 7.1 3.55 3.55 0 0 0 0-7.1ZM2.15 16.7a5.05 5.05 0 1 1 10.1 0 5.05 5.05 0 0 1-10.1 0Zm14.55-5.2a4.3 4.3 0 1 0 0-8.6 4.3 4.3 0 0 0 0 8.6Z","key":"58e7de7c01623c5832eeeaf750c22897b8c1c638"}],["path",{"fill":"currentColor","d":"M16.7 3.65a3.55 3.55 0 1 0 0 7.1 3.55 3.55 0 0 0 0-7.1ZM11.65 7.2a5.05 5.05 0 1 1 10.1 0 5.05 5.05 0 0 1-10.1 0Z","key":"b5cb7ea0a6040abadc4d4a823a08d235dc780a4c"}],["path",{"fill":"currentColor","d":"m10.57 14.57 4-4 1.06 1.06-4 4-1.06-1.06Zm-2.2-2.3 3.9-3.9 1.06 1.06-3.9 3.9-1.06-1.06Z","key":"a635752ee68c5142e844b4ecaf5dff6076672986"}]])
+  const DumbellAltB = createMeisterIcons("dumbell-alt-b", [["path",{"fill":"currentColor","d":"M7.2 21a4.3 4.3 0 1 0 0-8.6 4.3 4.3 0 0 0 0 8.6Z","key":"6c7bc2d9505dc911907178b6e34d0eca5089529c"}],["path",{"fill":"currentColor","d":"M7.2 13.15a3.55 3.55 0 1 0 0 7.1 3.55 3.55 0 0 0 0-7.1ZM2.15 16.7a5.05 5.05 0 1 1 10.1 0 5.05 5.05 0 0 1-10.1 0Zm14.55-5.2a4.3 4.3 0 1 0 0-8.6 4.3 4.3 0 0 0 0 8.6Z","key":"48c39078437de20abf4de3fedcaa0437abe0b8ea"}],["path",{"fill":"currentColor","d":"M16.7 3.65a3.55 3.55 0 1 0 0 7.1 3.55 3.55 0 0 0 0-7.1ZM11.65 7.2a5.05 5.05 0 1 1 10.1 0 5.05 5.05 0 0 1-10.1 0Z","key":"f7fc6828b0f476d888c7ef2390a1aa0197bb7d15"}],["path",{"fill":"currentColor","d":"m10.57 14.57 4-4 1.06 1.06-4 4-1.06-1.06Zm-2.2-2.3 3.9-3.9 1.06 1.06-3.9 3.9-1.06-1.06Z","key":"6cdb77cdcfe15ea36f0a47d1619684e0038b7860"}]])
 
 
   export default DumbellAltB

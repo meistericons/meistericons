@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const PlantB = createMeisterIcons("plant-b", [["path",{"stroke":"#000","stroke-miterlimit":"10","stroke-width":"1.5","d":"M11.15 10.1s0-7.2 7.2-7.2c0 .1-.4 7.2-7.2 7.2Zm-.1 1.2s0-5.4-5.4-5.4c0 0 .3 5.4 5.4 5.4Z","key":"d458ee8619bf27ad2f0830e9e8e2096dd69d0338"}],["path",{"fill":"currentColor","stroke":"#000","stroke-linecap":"round","stroke-miterlimit":"10","stroke-width":"1.5","d":"M16.65 15.6v3.8c0 .9-.8 1.7-1.7 1.7h-7.6c-1 0-1.7-.8-1.7-1.7v-3.8c0-.5.4-1 1-1h9.1c.5 0 .9.5.9 1Z","key":"e2aaac5ca55808c3f8ed0ad32eb9438d9c4ccfbc"}],["path",{"stroke":"#000","stroke-miterlimit":"10","stroke-width":"1.5","d":"M11.15 14.6v-4.5","key":"55aa490b702379b3b873baa7fa143ffdc71bfbe1"}]])
+  const PlantB = createMeisterIcons("plant-b", [["path",{"stroke":"#000","stroke-miterlimit":"10","stroke-width":"1.5","d":"M11.15 10.1s0-7.2 7.2-7.2c0 .1-.4 7.2-7.2 7.2Zm-.1 1.2s0-5.4-5.4-5.4c0 0 .3 5.4 5.4 5.4Z","key":"868d3d42d6341c3c4f53f4a7a2ada1e7a5b98679"}],["path",{"fill":"currentColor","stroke":"#000","stroke-linecap":"round","stroke-miterlimit":"10","stroke-width":"1.5","d":"M16.65 15.6v3.8c0 .9-.8 1.7-1.7 1.7h-7.6c-1 0-1.7-.8-1.7-1.7v-3.8c0-.5.4-1 1-1h9.1c.5 0 .9.5.9 1Z","key":"2bb7d9968dbf2a55fdd11fd0e226bbdeee2626aa"}],["path",{"stroke":"#000","stroke-miterlimit":"10","stroke-width":"1.5","d":"M11.15 14.6v-4.5","key":"5407ff183168e7bc7f092271756a727d2b4a8909"}]])
 
 
   export default PlantB

@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const Frame964 = createMeisterIcons("frame964", [["g",{"stroke":"#000","stroke-linecap":"round","stroke-miterlimit":"10","stroke-width":"1.5","clip-path":"url(#prefix__a)","key":"45cc30eb4e8f3e34dd11a6d27c4047e20989e1da"}],["defs",{"key":"82346aaf40bfd1462444f849152946fe4e17f96c"}]])
+  const Frame964 = createMeisterIcons("frame964", [["g",{"stroke":"#000","stroke-linecap":"round","stroke-miterlimit":"10","stroke-width":"1.5","clip-path":"url(#prefix__a)","key":"e2ca1e6cdd027048d2a0cec0d0d3817cfdd9b8c7"}],["defs",{"key":"05fc7b6d46a25a3b74261f171281decc4f80fb83"}]])
 
 
   export default Frame964
