@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const Nav = createMeisterIcons("nav", [["g",{"clip-path":"url(#prefix__a)","key":"4725c9cd616e982d63fc204cf8193065ad260853"}],["defs",{"key":"689d7deef5417ce62b61a124c07f973b983239c6"}]])
+  const Nav = createMeisterIcons("nav", [["g",{"clip-path":"url(#prefix__a)","key":"43e5d2b80b4869ef674e58f71df6a3018753eaf6"}],["defs",{"key":"3ae4058448ee2013ae09a53cf43052c37702748e"}]])
 
 
   export default Nav

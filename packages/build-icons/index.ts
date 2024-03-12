@@ -15,7 +15,7 @@ const targetDir = path.resolve(currentDir, `../../${pkg}`);
 
 
 if (existsSync(`${targetDir}/icons`)) {
-    unlinkSync(`${targetDir}/icons/index.ts`)
+    unlinkSync(`${targetDir}/icons`)
     unlinkSync(`${targetDir}/lib/meistericons-${pkg}.ts`)
 }
 
@@ -42,3 +42,5 @@ for (const icon of Object.entries(icons)) {
 
     }
 }
+
+console.log(`Generated ${Object.keys(icons).length-1} icons for @meistericons/${pkg.replaceAll("../","")}`)

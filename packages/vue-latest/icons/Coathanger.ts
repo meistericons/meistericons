@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const Coathanger = createMeisterIcons("coathanger", [["path",{"fill":"currentColor","d":"M11.948 9.112 21.5 16.25c.977.732.47 2.25-.75 2.25H3.25c-1.22 0-1.726-1.516-.751-2.25H2.5l9.448-7.138Zm.005 1.876L3.996 17h16.002l-8.046-6.012Z","key":"fbd3e16d21f8817823d20eda0e2dc22196af099a"}],["path",{"fill":"currentColor","d":"M14.52 7.48c-.607-.607-1.432-.607-2.04 0-.607.608-.607 1.433 0 2.04a.75.75 0 0 1-1.06 1.06c-1.193-1.192-1.193-2.967 0-4.16s2.967-1.193 4.16 0a.75.75 0 0 1-1.06 1.06Z","key":"ca1e1aa134b261874098fc954dfeb8619cc0df66"}]])
+  const Coathanger = createMeisterIcons("coathanger", [["path",{"fill":"currentColor","d":"M11.948 9.112 21.5 16.25c.977.732.47 2.25-.75 2.25H3.25c-1.22 0-1.726-1.516-.751-2.25H2.5l9.448-7.138Zm.005 1.876L3.996 17h16.002l-8.046-6.012Z","key":"41990890667d3579d8267c368b1b43c4ee46a52f"}],["path",{"fill":"currentColor","d":"M14.52 7.48c-.607-.607-1.432-.607-2.04 0-.607.608-.607 1.433 0 2.04a.75.75 0 0 1-1.06 1.06c-1.193-1.192-1.193-2.967 0-4.16s2.967-1.193 4.16 0a.75.75 0 0 1-1.06 1.06Z","key":"7021976455949f8537cdc392e4f923779fe5d3d9"}]])
 
 
   export default Coathanger

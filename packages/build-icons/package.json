@@ -21,7 +21,7 @@
   "scripts": {
     "build:icons": "bun run ./index.ts --pkg=../react",
     "bundle": "rollup -c",
-    "build": "bun run build:icons && bun run bundle"
+    "build": "pnpm i && bun run build:icons && bun run bundle"
   },
   "files": [
     "lib"

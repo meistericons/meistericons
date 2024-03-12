@@ -81,7 +81,7 @@ var generateTypes = (iconName, iconPackage) => {
       export declare const icons: Icons;
       `;
     const typeDefinitions = `    ${importStatement}
-    declare module 'meistericons-${pkg}'
+    declare module '@meistericons/${pkg}'
     
     ${types}
     // Generated icons
@@ -95,7 +95,7 @@ var generateTypes = (iconName, iconPackage) => {
 `,
     "utf-8"
   );
-  console.log(`Added ${iconName} icon type for meistericons-${pkg}`);
+  console.log(`Added icon type ${iconName} - @meistericons/${pkg}`);
 };
 
 const toCamelCase = (string) => string.replace(

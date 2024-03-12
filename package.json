@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Meistericons, an icon library,",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:icons-nodes": "pnpm --filter build-tools build",
+    "build:icons-react": "pnpm --filter react build",
+    "build:icons-vue": "pnpm --filter vue build",
+    "build:icons-vue-latest": "pnpm --filter vue-latest build",
+    "build": "pnpm run build:icons-nodes && pnpm run build:icons-react && pnpm run build:icons-vue && pnpm run build:icons-vue-latest"
   },
   "keywords": [
     "meistericons",

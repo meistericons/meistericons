@@ -61,7 +61,7 @@ export default (iconName: string, iconPackage: string) => {
     // Generates header of d.ts file include some types and functions
     const typeDefinitions = `\
     ${importStatement}
-    declare module 'meistericons-${pkg}'
+    declare module '@meistericons/${pkg}'
     
     ${types}
     // Generated icons
@@ -78,10 +78,9 @@ export default (iconName: string, iconPackage: string) => {
     `export declare const ${iconName}: ${pkg === 'react' ? 'MeisterIcon;' : vueReturnType}\n`,
     "utf-8"
   );
-
-
-  console.log(`Added ${iconName} icon type for meistericons-${pkg}`);
+console.log(`Added icon type ${iconName} - @meistericons/${pkg}`);
 }
+
 
 
 

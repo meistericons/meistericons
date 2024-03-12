@@ -17,9 +17,9 @@
     "directory": "/packages/vue"
   },
   "scripts": {
-    "build:icons": "build-icons --pkg=../vue",
+    "build:icons": "rm -r ./icons && build-icons --pkg=../vue",
     "bundle": "rollup -c",
-    "build": "bun run build:icons && bun run bundle"
+    "build": "pnpm i && bun run build:icons && bun run bundle"
   },
   "dependencies": {
     "@meistericons/build-icons": "workspace:*",

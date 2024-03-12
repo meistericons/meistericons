@@ -19,7 +19,7 @@
   "scripts": {
     "build:icons": "rm -r ./icons && build-icons --pkg=../vue-latest",
     "bundle": "rollup -c",
-    "build": "bun run build:icons && bun run bundle"
+    "build": "pnpm i && bun run build:icons && bun run bundle"
   },
   "keywords": [
     "meistericons",

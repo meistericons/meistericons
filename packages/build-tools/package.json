@@ -18,7 +18,7 @@
   "scripts": {
     "build:icon-nodes": "bun run ./src/generateIconNodes.ts",
     "bundle": "rollup -c",
-    "build": "bun run build:icon-nodes && bun bundle"
+    "build": "pnpm i && bun run build:icon-nodes && bun bundle"
   },
   "files": [
     "lib"

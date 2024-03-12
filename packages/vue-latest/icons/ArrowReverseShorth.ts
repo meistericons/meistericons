@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const ArrowReverseShorth = createMeisterIcons("arrow-reverse-shorth", [["path",{"fill":"currentColor","d":"M13.48 2.62a.75.75 0 1 0-1.06 1.06l2.62 2.62H7.45a.75.75 0 1 0 0 1.5h7.59l-2.62 2.62a.75.75 0 0 0 1.06 1.06l3.4-3.4c.27-.27.445-.63.445-1.03s-.174-.76-.445-1.03l-3.4-3.4ZM8.96 16.2l2.62-2.62a.75.75 0 1 0-1.06-1.06l-3.4 3.4c-.27.27-.445.63-.445 1.03s.174.76.445 1.03l3.4 3.4a.75.75 0 1 0 1.06-1.06L8.96 17.7h7.59a.75.75 0 0 0 0-1.5H8.96Z","key":"84753ceb7c7aeeff2f294e6e4ec10a2bcdae2fd4"}]])
+  const ArrowReverseShorth = createMeisterIcons("arrow-reverse-shorth", [["path",{"fill":"currentColor","d":"M13.48 2.62a.75.75 0 1 0-1.06 1.06l2.62 2.62H7.45a.75.75 0 1 0 0 1.5h7.59l-2.62 2.62a.75.75 0 0 0 1.06 1.06l3.4-3.4c.27-.27.445-.63.445-1.03s-.174-.76-.445-1.03l-3.4-3.4ZM8.96 16.2l2.62-2.62a.75.75 0 1 0-1.06-1.06l-3.4 3.4c-.27.27-.445.63-.445 1.03s.174.76.445 1.03l3.4 3.4a.75.75 0 1 0 1.06-1.06L8.96 17.7h7.59a.75.75 0 0 0 0-1.5H8.96Z","key":"e24fff8f22f65ad4f7fa2f01888ebf70d638dc50"}]])
 
 
   export default ArrowReverseShorth
