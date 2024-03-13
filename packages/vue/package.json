@@ -1,6 +1,6 @@
 {
   "name": "@meistericons/vue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vue icon library for meistericons.",
   "bugs": {
     "url": "https://github.com/rahulrajdahal/meistericons/issues"
@@ -44,12 +44,12 @@
   "author": "Rahul Raj Dahal",
   "license": "ISC",
   "devDependencies": {
-    "@meistericons/build-tools": "workspace:*",
     "@meistericons/build-icons": "workspace:*",
+    "@meistericons/build-tools": "workspace:*",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
-    "rollup": "^4.12.1",
+    "rollup": "^4.13.0",
     "rollup-plugin-esbuild": "^6.1.1",
     "rollup-plugin-visualizer": "^5.12.0"
   }

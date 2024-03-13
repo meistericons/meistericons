@@ -34,14 +34,14 @@
     "require": "./lib/cjs/static.cjs.min.cjs"
   },
   "devDependencies": {
-    "@meistericons/build-tools":"workspace:*",
+    "@meistericons/build-tools": "workspace:*",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
-    "@types/node": "^20.11.25",
-    "rollup": "^4.12.1",
-    "rollup-plugin-esbuild": "^6.1.1",
+    "@types/node": "^20.11.27",
     "fantasticon": "^2.0.0",
+    "rollup": "^4.13.0",
+    "rollup-plugin-esbuild": "^6.1.1",
     "rollup-plugin-visualizer": "^5.12.0"
   }
 }
