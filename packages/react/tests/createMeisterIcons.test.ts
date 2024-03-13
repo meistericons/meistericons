@@ -30,7 +30,7 @@ describe("it should create a meistericons svg template in react", () => {
     ) as unknown as ReactElement<any, string | JSXElementConstructor<any>>;
 
     let tree;
-    const component = renderer.create(iconElement.render({}))
+    const component = renderer.create((iconElement as any).render({}))
 
     test("it should export IconNode", () => {
         expect(iconNode).toBeTruthy();
