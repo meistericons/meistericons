@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const BedB = createMeisterIcons("bed-b", [["path",{"fill":"currentColor","d":"M19 7.05v2.2H5v-2.2c0-2.2 1.8-4 4-4h6c2.2 0 4 1.7 4 4Z","key":"74a902fc34a148f6a0a08cba832d74d011c0df3d"}],["path",{"fill":"currentColor","d":"M9 3.8a3.262 3.262 0 0 0-3.25 3.25V8.5h12.5V7.05c0-1.874-1.452-3.25-3.25-3.25H9ZM4.25 7.05A4.762 4.762 0 0 1 9 2.3h6c2.602 0 4.75 2.023 4.75 4.75V10H4.25V7.05Z","key":"b01f4ac2519d53327e8b292a6baad0fc0971ce7b"}],["path",{"fill":"currentColor","d":"M4.25 8.4h15.5v8.55A4.762 4.762 0 0 1 15 21.7H9a4.762 4.762 0 0 1-4.75-4.75V8.4Zm1.5 1.5v7.05A3.262 3.262 0 0 0 9 20.2h6a3.262 3.262 0 0 0 3.25-3.25V9.9H5.75Z","key":"ee9ce002c8a4d51b743189d94f0aed5c8e079fc3"}]])
+  const BedB = createMeisterIcons("bed-b", [["path",{"fill":"currentColor","d":"M19 7.05v2.2H5v-2.2c0-2.2 1.8-4 4-4h6c2.2 0 4 1.7 4 4Z","key":"9a95d2090504e0ca519998ba24e9949419e25905"}],["path",{"fill":"currentColor","d":"M9 3.8a3.262 3.262 0 0 0-3.25 3.25V8.5h12.5V7.05c0-1.874-1.452-3.25-3.25-3.25H9ZM4.25 7.05A4.762 4.762 0 0 1 9 2.3h6c2.602 0 4.75 2.023 4.75 4.75V10H4.25V7.05Z","key":"adc5ad969f52b7fd20d1ffcf1895c71b8bd233c5"}],["path",{"fill":"currentColor","d":"M4.25 8.4h15.5v8.55A4.762 4.762 0 0 1 15 21.7H9a4.762 4.762 0 0 1-4.75-4.75V8.4Zm1.5 1.5v7.05A3.262 3.262 0 0 0 9 20.2h6a3.262 3.262 0 0 0 3.25-3.25V9.9H5.75Z","key":"e783acbfd8c22015f57d2ff5dd864f0c37bf6040"}]])
 
 
   export default BedB

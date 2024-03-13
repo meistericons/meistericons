@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const CardAlt = createMeisterIcons("card-alt", [["path",{"fill":"currentColor","d":"M3.838 8.25A3.266 3.266 0 0 1 7 5.75h10a3.266 3.266 0 0 1 3.162 2.5H3.838Zm-.088 1.5V15c0 1.798 1.376 3.25 3.25 3.25h10A3.262 3.262 0 0 0 20.25 15V9.75H3.75ZM7 4.25A4.762 4.762 0 0 0 2.25 9v6c0 2.602 2.024 4.75 4.75 4.75h10A4.762 4.762 0 0 0 21.75 15V9A4.762 4.762 0 0 0 17 4.25H7Z","key":"7b932e82943d2425c570e5086c1fff37c52937be"}]])
+  const CardAlt = createMeisterIcons("card-alt", [["path",{"fill":"currentColor","d":"M3.838 8.25A3.266 3.266 0 0 1 7 5.75h10a3.266 3.266 0 0 1 3.162 2.5H3.838Zm-.088 1.5V15c0 1.798 1.376 3.25 3.25 3.25h10A3.262 3.262 0 0 0 20.25 15V9.75H3.75ZM7 4.25A4.762 4.762 0 0 0 2.25 9v6c0 2.602 2.024 4.75 4.75 4.75h10A4.762 4.762 0 0 0 21.75 15V9A4.762 4.762 0 0 0 17 4.25H7Z","key":"1cac703fb27d7c9ab14b997b71d1b949169d7972"}]])
 
 
   export default CardAlt
