@@ -3,9 +3,8 @@ on:
       # Sequence of patterns matched against refs/tags
       tags:
         - "v*" # Push events to matching v*, i.e. v1.0, v20.15.10
-  
+        
 name: Create Release
-  
 jobs:
   build:
     name: Create Release
@@ -22,7 +21,12 @@ jobs:
           tag_name: ${{ github.ref  }}
           release_name: ${{ github.ref  }} - Release Docs Version Update
           body: |
-            🏗️ Build tools update 
-            - ⛏️ Fixed build types
+            Icons update 
+            - Added +5 icons
+            - Added variantions for icons
+
+            Documentation update
+            - Added documentation individual icons.
+            - Added documentation for how to use s
           draft: true
           prerelease: false
