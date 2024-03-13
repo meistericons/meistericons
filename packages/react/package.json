@@ -16,6 +16,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
     "build:icons": "rm -r ./icons && build-icons --pkg=../react",
     "bundle": "rollup -c",
     "build": "pnpm i && bun run build:icons && bun run bundle"
@@ -37,15 +39,20 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@meistericons/build-tools": "workspace:*",
     "@meistericons/build-icons": "workspace:*",
+    "@meistericons/build-tools": "workspace:*",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
     "@types/node": "^20.11.25",
+    "@types/react": "^18.2.65",
+    "@types/react-test-renderer": "^18.0.7",
+    "fantasticon": "^2.0.0",
+    "happy-dom": "^13.8.2",
+    "react-test-renderer": "^18.2.0",
     "rollup": "^4.12.1",
     "rollup-plugin-esbuild": "^6.1.1",
-    "fantasticon": "^2.0.0",
-    "rollup-plugin-visualizer": "^5.12.0"
+    "rollup-plugin-visualizer": "^5.12.0",
+    "vitest": "^1.3.1"
   }
 }

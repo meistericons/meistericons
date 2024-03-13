@@ -21,7 +21,7 @@ const createMeisterIcons = (
   iconNode: IconNode
 ): MeisterIcon => {
   const Component = React.forwardRef<SVGSVGElement, MeisterIconsProps>(
-    ({ color = "currentColor", size = 24, children, ...rest }, ref) =>
+    ({ color = "currentColor", size = 24, children, ...rest }: any, ref: any) =>
       React.createElement(
         "svg",
         {
@@ -29,6 +29,7 @@ const createMeisterIcons = (
           width: size,
           height: size,
           className: `mni mni-${toPascalCase(iconName)}`,
+          color,
           ...defaultAttributes,
           ...rest,
         },
