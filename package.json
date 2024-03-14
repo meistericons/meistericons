@@ -3,6 +3,10 @@
   "version": "1.0.8",
   "description": "Meistericons, an icon library,",
   "scripts": {
+    "test:build-tools": "pnpm --filter build-tools test",
+    "test:build-icons": "pnpm --filter build-icons test",
+    "test:react": "pnpm --filter react test",
+    "test": "pnpm run test:build-tools && pnpm run test:build-icons && pnpm run test:react",
     "build:icons-nodes": "pnpm --filter build-tools build",
     "build:icons-react": "pnpm --filter react build",
     "build:icons-vue": "pnpm --filter vue build",
