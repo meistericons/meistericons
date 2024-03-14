@@ -8,7 +8,6 @@ name: Create Release
 
 jobs:
   build:
-    permissions: write-all
     name: Create Release
     runs-on: ubuntu-latest
     steps:
@@ -26,7 +25,6 @@ jobs:
             Icons update 
             - Added +5 icons
             - Added variantions for icons
-
             Documentation update
             - Added documentation individual icons.
             - Added documentation for how to use s
