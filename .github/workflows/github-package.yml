@@ -6,18 +6,38 @@ name: Github Package Publish
 on:
   release:
     types: [published]
+  push:
+    paths:     
+    - "packages/**"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version: "20.x"
       - run: npm ci
 
   publish-gpr:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "20.x"
+          registry-url: https://npm.pkg.github.com/
+      - run: npm ci
+      - run: npm publish --access=public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+  publish-build-tools:
     needs: build
     runs-on: ubuntu-latest
     permissions:
