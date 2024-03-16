@@ -1,6 +1,6 @@
 {
   "name": "@meistericons/static",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Static assets for meistericons.",
   "author": "Rahul Raj Dahal",
   "license": "ISC",
@@ -17,6 +17,7 @@
   },
   "scripts": {
     "fonts": "bun run ./src/generateFonts.ts && fantasticon -n mni -p mni ./fontIcons -o ./fonts && rm -r ./fontIcons",
+    "patch": "pnpm version patch",
     "bundle": "rollup -c",
     "build": "pnpm i && pnpm run fonts && bun run ./src/build.ts && pnpm run bundle"
   },

@@ -34,8 +34,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - uses: pnpm/action-setup@v3
         with:
-          version: 8
-      - run: pnpm version patch
+          version: 8      
       - run: pnpm i      
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
@@ -53,8 +52,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - uses: pnpm/action-setup@v3
         with:
-          version: 8
-      - run: pnpm version patch
+          version: 8      
       - run: pnpm --filter build-tools build      
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}   
@@ -73,8 +71,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - uses: pnpm/action-setup@v3
         with:
-          version: 8
-      - run: pnpm version patch
+          version: 8      
       - run: pnpm --filter build-icons build       
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}  
@@ -93,8 +90,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - uses: pnpm/action-setup@v3
         with:
-          version: 8
-      - run: pnpm version patch
+          version: 8      
       - run: pnpm --filter static build       
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}  
@@ -113,8 +109,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - uses: pnpm/action-setup@v3
         with:
-          version: 8
-      - run: pnpm version patch
+          version: 8      
       - run: pnpm --filter react build       
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}} 
@@ -133,8 +128,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - uses: pnpm/action-setup@v3
         with:
-          version: 8
-      - run: pnpm version patch
+          version: 8      
       - run: pnpm --filter vue build       
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}} 
@@ -153,8 +147,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - uses: pnpm/action-setup@v3
         with:
-          version: 8
-      - run: pnpm version patch
+          version: 8      
       - run: pnpm --filter vue-latest build       
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}} 
@@ -173,8 +166,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - uses: pnpm/action-setup@v3
         with:
-          version: 8
-      - run: pnpm version patch
+          version: 8      
       - run: pnpm -r publish --access=public     
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}} 

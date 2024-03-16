@@ -1,6 +1,6 @@
 {
   "name": "@meistericons/react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React icon library of meistericons.",
   "author": "Rahul Raj Dahal",
   "license": "ISC",
@@ -18,6 +18,7 @@
   "scripts": {
     "test": "vitest",
     "coverage": "vitest run --coverage",
+    "patch": "pnpm version patch",
     "build:icons": "rm -r ./icons && build-icons --pkg=../react",
     "bundle": "rollup -c",
     "build": "pnpm i && bun run build:icons && bun run bundle"
