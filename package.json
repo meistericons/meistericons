@@ -1,6 +1,6 @@
 {
   "name": "meistericons",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Meistericons, an icon library,",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -22,8 +22,8 @@
     "build:icons-react": "pnpm --filter react build",
     "build:icons-vue": "pnpm --filter vue build",
     "build:icons-vue-latest": "pnpm --filter vue-latest build",
-    "build": "pnpm run build:icons-nodes && pnpm run build:build-icons && pnpm run build:icons-react && pnpm run build:icons-vue && pnpm run build:icons-vue-latest"
-    ,"publish":"pnpm run patch && pnpm run build"
+    "build": "pnpm run build:icons-nodes && pnpm run build:build-icons && pnpm run build:icons-react && pnpm run build:icons-vue && pnpm run build:icons-vue-latest",
+    "publish": "pnpm run patch && pnpm run build"
   },
   "keywords": [
     "meistericons",
