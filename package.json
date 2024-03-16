@@ -1,6 +1,6 @@
 {
   "name": "meistericons",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Meistericons, an icon library,",
   "scripts": {
     "test:build-tools": "pnpm --filter build-tools test",
