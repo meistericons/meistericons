@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const ArrowBreakTop = createMeisterIcons("arrow-break-top", [["path",{"fill":"currentColor","d":"M12 19.7a.75.75 0 0 1-.75-.75V5.05a.75.75 0 0 1 1.5 0v13.9a.75.75 0 0 1-.75.75Z","key":"e07332740494392e8f30856e6abd0c2a3c375d89"}],["path",{"fill":"currentColor","d":"M18.236 10.875a.75.75 0 0 1-1.061.01L12.17 5.98A.24.24 0 0 0 12 5.9a.24.24 0 0 0-.17.08l-4.9 4.9a.75.75 0 1 1-1.06-1.06l4.9-4.9a1.716 1.716 0 0 1 2.457-.003l4.998 4.897c.296.29.3.765.01 1.061Zm.514 8.075a.75.75 0 0 1-.75.75H6a.75.75 0 0 1 0-1.5h12a.75.75 0 0 1 .75.75Z","key":"0994901689c6a6f0ca8600d7923c67da810df14c"}]])
+  const ArrowBreakTop = createMeisterIcons("arrow-break-top", [["path",{"fill":"currentColor","d":"M12 19.7a.75.75 0 0 1-.75-.75V5.05a.75.75 0 0 1 1.5 0v13.9a.75.75 0 0 1-.75.75Z","key":"c2af73fa25c6a2e96fc8f623e7a97060bdb2157f"}],["path",{"fill":"currentColor","d":"M18.236 10.875a.75.75 0 0 1-1.061.01L12.17 5.98A.24.24 0 0 0 12 5.9a.24.24 0 0 0-.17.08l-4.9 4.9a.75.75 0 1 1-1.06-1.06l4.9-4.9a1.716 1.716 0 0 1 2.457-.003l4.998 4.897c.296.29.3.765.01 1.061Zm.514 8.075a.75.75 0 0 1-.75.75H6a.75.75 0 0 1 0-1.5h12a.75.75 0 0 1 .75.75Z","key":"c0c934716cb72ee6501fccf95e200dae129a7d53"}]])
 
 
   export default ArrowBreakTop

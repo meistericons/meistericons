@@ -1,6 +1,6 @@
 {
   "name": "@meistericons/build-icons",
-  "version": "0.0.4",
+  "version": "0.0.1",
   "description": "build icon tool for meistericons. Intended for internal use.",
   "author": "Rahul Raj Dahal",
   "license": "ISC",

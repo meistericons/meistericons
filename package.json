@@ -1,6 +1,6 @@
 {
   "name": "meistericons",
-  "version": "0.0.7",
+  "version": "0.0.1",
   "description": "Meistericons, an icon library,",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
