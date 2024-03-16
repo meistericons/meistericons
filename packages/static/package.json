@@ -18,7 +18,7 @@
   "scripts": {
     "fonts": "bun run ./src/generateFonts.ts && fantasticon -n mni -p mni ./fontIcons -o ./fonts && rm -r ./fontIcons",
     "bundle": "rollup -c",
-    "build": "pnpm i && pnpm run fonts && bun run ./src/build.ts &&pnpm run bundle"
+    "build": "pnpm i && pnpm run fonts && bun run ./src/build.ts && pnpm run bundle"
   },
   "files": [
     "fonts",
