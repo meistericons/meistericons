@@ -6,9 +6,6 @@ name: Github Package Publish
 on:
   release:
     types: [published]
-  push:
-    paths:     
-    - "packages/**"
 
 jobs:
   build:
