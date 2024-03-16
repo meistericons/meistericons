@@ -18,10 +18,12 @@
     "patch:vue-latest": "pnpm run --filter vue-latest patch",
     "patch": "pnpm run patch:build-tools && pnpm run patch:build-icons && pnpm run patch:static && pnpm run patch:react && pnpm run patch:vue && pnpm run patch:vue-latest",
     "build:icons-nodes": "pnpm --filter build-tools build",
+    "build:build-icons": "pnpm --filter build-icons build",
     "build:icons-react": "pnpm --filter react build",
     "build:icons-vue": "pnpm --filter vue build",
     "build:icons-vue-latest": "pnpm --filter vue-latest build",
-    "build": "pnpm run build:icons-nodes && pnpm run build:icons-react && pnpm run build:icons-vue && pnpm run build:icons-vue-latest"
+    "build": "pnpm run build:icons-nodes && pnpm run build:build-icons && pnpm run build:icons-react && pnpm run build:icons-vue && pnpm run build:icons-vue-latest"
+    ,"publish":"pnpm run patch && pnpm run build"
   },
   "keywords": [
     "meistericons",

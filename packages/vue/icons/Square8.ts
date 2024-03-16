@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const Square8 = createMeisterIcons("square8", [["path",{"fill":"currentColor","d":"M3.75 7c0-1.886 1.364-3.25 3.25-3.25h10A3.262 3.262 0 0 1 20.25 7v1.15H3.75V7Zm0 2.65V17A3.262 3.262 0 0 0 7 20.25h.25V9.65h-3.5Zm11.5 10.6h-6.5V9.65h6.5v10.6Zm1.5 0H17A3.262 3.262 0 0 0 20.25 17V9.65h-3.5v10.6ZM7 2.25C4.286 2.25 2.25 4.286 2.25 7v10A4.762 4.762 0 0 0 7 21.75h10A4.762 4.762 0 0 0 21.75 17V7A4.762 4.762 0 0 0 17 2.25H7Z","key":"fc3a0936f7f017b6ac1471fc7726cd321904f72d"}]])
+  const Square8 = createMeisterIcons("square8", [["path",{"fill":"currentColor","d":"M3.75 7c0-1.886 1.364-3.25 3.25-3.25h10A3.262 3.262 0 0 1 20.25 7v1.15H3.75V7Zm0 2.65V17A3.262 3.262 0 0 0 7 20.25h.25V9.65h-3.5Zm11.5 10.6h-6.5V9.65h6.5v10.6Zm1.5 0H17A3.262 3.262 0 0 0 20.25 17V9.65h-3.5v10.6ZM7 2.25C4.286 2.25 2.25 4.286 2.25 7v10A4.762 4.762 0 0 0 7 21.75h10A4.762 4.762 0 0 0 21.75 17V7A4.762 4.762 0 0 0 17 2.25H7Z","key":"143d647d8730fa13c6f4bfc50691429a80c20e91"}]])
 
 
   export default Square8

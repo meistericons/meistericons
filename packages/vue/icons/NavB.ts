@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const NavB = createMeisterIcons("nav-b", [["path",{"fill":"currentColor","d":"m11.45 4.75-7 13.9c-.3.6.4 1.1.9.8l6.3-4.5c.2-.2.5-.2.7 0l6.2 4.5c.5.4 1.2-.2.9-.8l-7-13.9c-.1-.5-.8-.5-1 0Z","key":"2cb9c6c3f989cbd55bd1cf02f7040f0a5e720502"}]])
+  const NavB = createMeisterIcons("nav-b", [["path",{"fill":"currentColor","d":"m11.45 4.75-7 13.9c-.3.6.4 1.1.9.8l6.3-4.5c.2-.2.5-.2.7 0l6.2 4.5c.5.4 1.2-.2.9-.8l-7-13.9c-.1-.5-.8-.5-1 0Z","key":"c54698f87bd5010bd26483c54e29644781d9431b"}]])
 
 
   export default NavB

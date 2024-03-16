@@ -2846,4 +2846,4 @@ for (const icon of Object.entries(icons)) {
     d$1(icon[0], pkg);
   }
 }
-console.log(`Generated ${Object.keys(icons).length - 1} icons for @meistericons/${pkg}`);
+console.log(`Generated ${Object.keys(icons).length - 1} icons for @meistericons/${pkg.replaceAll("../", "")}`);

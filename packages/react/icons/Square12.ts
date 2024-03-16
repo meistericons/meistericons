@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const Square12 = createMeisterIcons("square12", [["path",{"fill":"currentColor","d":"M3.75 7A3.262 3.262 0 0 1 7 3.75h4.25v16.5H7A3.262 3.262 0 0 1 3.75 17V7Zm9 13.25H17A3.262 3.262 0 0 0 20.25 17V7A3.262 3.262 0 0 0 17 3.75h-4.25v16.5ZM7 2.25A4.762 4.762 0 0 0 2.25 7v10A4.762 4.762 0 0 0 7 21.75h10A4.762 4.762 0 0 0 21.75 17V7A4.762 4.762 0 0 0 17 2.25H7Z","key":"93f61e39f400ba405e66a08d011f202450679bf6"}]])
+  const Square12 = createMeisterIcons("square12", [["path",{"fill":"currentColor","d":"M3.75 7A3.262 3.262 0 0 1 7 3.75h4.25v16.5H7A3.262 3.262 0 0 1 3.75 17V7Zm9 13.25H17A3.262 3.262 0 0 0 20.25 17V7A3.262 3.262 0 0 0 17 3.75h-4.25v16.5ZM7 2.25A4.762 4.762 0 0 0 2.25 7v10A4.762 4.762 0 0 0 7 21.75h10A4.762 4.762 0 0 0 21.75 17V7A4.762 4.762 0 0 0 17 2.25H7Z","key":"7e2b0c92bdc1dc6d1f8d68991605f4ccde149fd5"}]])
 
 
   export default Square12

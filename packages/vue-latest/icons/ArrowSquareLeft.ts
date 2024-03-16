@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const ArrowSquareLeft = createMeisterIcons("arrow-square-left", [["path",{"fill":"currentColor","d":"M15 20.25c2.886 0 5.25-2.364 5.25-5.25V9c0-2.886-2.364-5.25-5.25-5.25H9C6.214 3.75 3.75 6.214 3.75 9v6c0 2.886 2.364 5.25 5.25 5.25h6ZM21.75 15c0 3.714-3.036 6.75-6.75 6.75H9c-3.714 0-6.75-3.036-6.75-6.75V9c0-3.614 3.136-6.75 6.75-6.75h6c3.714 0 6.75 3.036 6.75 6.75v6Z","key":"7904af8fc902a1da4decb6b4aa76247869b20508"}],["path",{"fill":"currentColor","d":"M16.15 12a.75.75 0 0 1-.75.75H8.8a.75.75 0 0 1 0-1.5h6.6a.75.75 0 0 1 .75.75Z","key":"faa37c022d0e4d8601eac59669e7da74bf177303"}],["path",{"fill":"currentColor","d":"M11.93 15.53a.75.75 0 0 1-1.06 0l-2.5-2.5a1.233 1.233 0 0 1 0-1.76l2.5-2.5a.75.75 0 0 1 1.06 1.06l-2.32 2.32 2.32 2.32a.75.75 0 0 1 0 1.06Z","key":"a5b18cccd27a8bd64419f9daf0481961803f0929"}]])
+  const ArrowSquareLeft = createMeisterIcons("arrow-square-left", [["path",{"fill":"currentColor","d":"M15 20.25c2.886 0 5.25-2.364 5.25-5.25V9c0-2.886-2.364-5.25-5.25-5.25H9C6.214 3.75 3.75 6.214 3.75 9v6c0 2.886 2.364 5.25 5.25 5.25h6ZM21.75 15c0 3.714-3.036 6.75-6.75 6.75H9c-3.714 0-6.75-3.036-6.75-6.75V9c0-3.614 3.136-6.75 6.75-6.75h6c3.714 0 6.75 3.036 6.75 6.75v6Z","key":"be99a25ab9df5c702c932a3bf5f7d8eb9af71c0f"}],["path",{"fill":"currentColor","d":"M16.15 12a.75.75 0 0 1-.75.75H8.8a.75.75 0 0 1 0-1.5h6.6a.75.75 0 0 1 .75.75Z","key":"2bc1ad7fd10eeb12301ad09ebf850c5517fcf290"}],["path",{"fill":"currentColor","d":"M11.93 15.53a.75.75 0 0 1-1.06 0l-2.5-2.5a1.233 1.233 0 0 1 0-1.76l2.5-2.5a.75.75 0 0 1 1.06 1.06l-2.32 2.32 2.32 2.32a.75.75 0 0 1 0 1.06Z","key":"8b0dced55edd43bc10b5bb71a86e1cfeda1854f7"}]])
 
 
   export default ArrowSquareLeft
