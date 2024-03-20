@@ -2,6 +2,7 @@
   "name": "@meistericons/build-tools",
   "version": "0.0.1",
   "description": "build tools for meistericons. Intended for internal use.",
+  "type": "module",
   "author": "Rahul Raj Dahal",
   "license": "ISC",
   "repository": {
@@ -19,9 +20,9 @@
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "patch": "pnpm version patch",
-    "build:icon-nodes": "bun run ./src/generateIconNodes.ts",
+    "build:icon-nodes": "node ./src/generateIconNodes.js",
     "bundle": "rollup -c",
-    "build": "pnpm i && bun run build:icon-nodes && bun bundle"
+    "build": "pnpm i && pnpm run build:icon-nodes && pnpm run bundle"
   },
   "files": [
     "lib"

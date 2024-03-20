@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Static assets for meistericons.",
   "author": "Rahul Raj Dahal",
+  "type": "module",
   "license": "ISC",
   "repository": {
     "url": "https://github.com/rahulrajdahal/meistericons.git",
@@ -16,10 +17,10 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "fonts": "bun run ./src/generateFonts.ts && fantasticon -n mni -p mni ./fontIcons -o ./fonts && rm -r ./fontIcons",
+    "fonts": "node ./src/generateFonts.js && fantasticon -n mni -p mni ./fontIcons -o ./fonts && rm -r ./fontIcons",
     "patch": "pnpm version patch",
     "bundle": "rollup -c",
-    "build": "pnpm i && pnpm run fonts && bun run ./src/build.ts && pnpm run bundle"
+    "build": "pnpm i && pnpm run fonts && node ./src/build.js && pnpm run bundle"
   },
   "files": [
     "fonts",

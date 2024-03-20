@@ -19,7 +19,7 @@ if (existsSync(`${targetDir}/icons`)) {
 
 for (const icon of Object.entries(icons)) {
     if (icon[0] !== 'icons') {
-        const parsedSvg = parseSync(icon[1] as string);
+        const parsedSvg = parseSync(icon[1] );
 
         parsedSvg.children.forEach((child) => {
             if (!child.attributes.key) {
@@ -35,7 +35,7 @@ for (const icon of Object.entries(icons)) {
         const iconNodes = [toKebabCase(icon[0]), parsedSvg.children.map(({ name, attributes }) => [name, attributes])]
 
         generateIconFile(iconNodes, pkg);
-        generateExportFile(iconNodes[0] as string, pkg);
+        generateExportFile(iconNodes[0] , pkg);
         generateTypes(icon[0], pkg);
 
     }

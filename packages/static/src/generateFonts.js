@@ -9,7 +9,7 @@ const iconsDir = resolve(currentDir, '../../icons');
 
 let totalIcons = 0
 
-readdirSync(iconsDir).forEach((category: string) => {
+readdirSync(iconsDir).forEach((category) => {
     if (category !== 'index.ts') {
 
 

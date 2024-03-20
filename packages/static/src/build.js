@@ -13,7 +13,7 @@ if (existsSync(writeFile)) {
     unlinkSync(writeFile)
 }
 
-readdirSync(iconsDir).forEach(async (category: string, i) => {
+readdirSync(iconsDir).forEach(async (category, i) => {
     const categoryDir = resolve(iconsDir, category);
     const iconCategories = readIconFiles(categoryDir).sort((a, b) => a.localeCompare(b))
 

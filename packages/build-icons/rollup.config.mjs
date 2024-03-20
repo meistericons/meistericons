@@ -31,7 +31,7 @@ const minifyOutput = inputs.map(({ format }) => ({
 }));
 
 export default {
-    input: "./index.ts",
+    input: "./index.js",
     output: [...output, ...minifyOutput],
     plugins: [
         esbuild({}),

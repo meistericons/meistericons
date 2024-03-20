@@ -20,7 +20,7 @@
     "build:icons": "rm -r ./icons && build-icons --pkg=../vue",
     "patch": "pnpm version patch",
     "bundle": "rollup -c",
-    "build": "pnpm i && bun run build:icons && bun run bundle"
+    "build": "pnpm i && pnpm run build:icons && pnpm run bundle"
   },
   "dependencies": {
     "@meistericons/build-icons": "workspace:*",

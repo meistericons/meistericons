@@ -21,7 +21,7 @@
     "patch": "pnpm version patch",
     "build:icons": "rm -r ./icons && build-icons --pkg=../react",
     "bundle": "rollup -c",
-    "build": "pnpm i && bun run build:icons && bun run bundle"
+    "build": "pnpm i && pnpm run build:icons && pnpm run bundle"
   },
   "main": "./lib/cjs/react.cjs.min.cjs",
   "main:umd": "./lib/umd/react.umd.min.js",

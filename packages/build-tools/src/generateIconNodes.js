@@ -3,17 +3,20 @@ import crypto from 'node:crypto';
 import { appendFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { parseSync } from 'svgson';
-import { getCurrentDir, toKebabCase } from '..';
+
+export const toKebabCase = (string) =>
+    string.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase();
 
 
-const currentDir = getCurrentDir(import.meta.url);
-const targetDir = path.resolve(currentDir, `../../../static/icon-nodes.json`);
+const currentDir = process.cwd()
+const targetDir = path.resolve(currentDir, `../static/icon-nodes.json`);
 
 writeFileSync(targetDir, `[\n`);
 
+
 for (const icon of Object.entries(icons)) {
     if (icon[0] !== 'icons') {
-        const parsedSvg = parseSync(icon[1] as string);
+        const parsedSvg = parseSync(icon[1] );
 
         parsedSvg.children.forEach((child) => {
 
