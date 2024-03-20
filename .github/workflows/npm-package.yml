@@ -28,7 +28,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Login to npm registry
         run: |
-          npm config set //registry.npmjs.org/:_authToken ${{ secrets.NPM_TOKEN }}
+          npm config set //registry.npmjs.org/:_authToken ${{secrets.npm_token}}
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
       - uses: pnpm/action-setup@v3
         with:

@@ -25,7 +25,7 @@
     "patch": "pnpm version patch",
     "build:icons": "node ./index.js --pkg=../react",
     "bundle": "rollup -c",
-    "build": "pnpm i && bun run build:icons && bun run bundle"
+    "build": "pnpm i && pnpm run build:icons && pnpm run bundle"
   },
   "files": [
     "lib"
