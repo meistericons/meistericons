@@ -12,7 +12,7 @@ const { pkg } = getCliArguments(process.argv.slice(2))
 
 const targetDir = path.resolve(currentDir, `../../${pkg}`);
 
-if (existsSync(`${targetDir}/icons`)) {
+if (pkg!=='static'&& existsSync(`${targetDir}/icons`)) {
     unlinkSync(`${targetDir}/icons`)
     unlinkSync(`${targetDir}/lib/meistericons-${pkg}.ts`)
 }
@@ -34,8 +34,8 @@ for (const icon of Object.entries(icons)) {
 
         const iconNodes = [toKebabCase(icon[0]), parsedSvg.children.map(({ name, attributes }) => [name, attributes])]
 
-        generateIconFile(iconNodes, pkg);
-        generateExportFile(iconNodes[0] , pkg);
+        // generateIconFile(iconNodes, pkg);
+        // generateExportFile(iconNodes[0] , pkg);
         generateTypes(icon[0], pkg);
 
     }

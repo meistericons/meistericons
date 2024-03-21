@@ -42,11 +42,11 @@ var generateTypes = (iconName, iconPackage) => {
   const currentDir = getCurrentDir(import.meta.url);
   const targetDir = path.resolve(currentDir, `../../../${iconPackage}/lib`);
   let pkg = iconPackage.includes("../") ? iconPackage.replaceAll("../", "") : iconPackage;
-  const vuePackage = pkg === "vue" ? "vue" : "vue-latest";
+  const vuePackage = pkg === "static" ? "static" : pkg === "vue" ? "vue" : "vue-latest";
   const typesFileName = `meistericons-${pkg === "react" ? "react" : vuePackage}.d.ts`;
   if (!existsSync(targetDir)) {
     mkdirSync(targetDir);
-    const vueImport = pkg === "vue" ? `import { Component } from "vue"` : `import { FunctionalComponent, SVGAttributes } from "vue"`;
+    const vueImport = pkg === "vue" ? `import { Component } from "vue"` : pkg === "vue-latest" ? `import { FunctionalComponent, SVGAttributes } from "vue"` : "";
     const importStatement = pkg === "react" ? `import { MeisterIcon } from '../src/createMeisterIcons'` : vueImport;
     const types = pkg === "vue-latest" ? `interface SVGProps extends Partial<SVGAttributes> {
         size: 24;
@@ -54,7 +54,7 @@ var generateTypes = (iconName, iconPackage) => {
       }
       
       export type Icon = (props: SVGProps) => FunctionalComponent<SVGProps>;
-      ` : `export interface SVGProps extends Partial<SVGElement> ${JSON.stringify(
+      ` : pkg === "static" ? `` : `export interface SVGProps extends Partial<SVGElement> ${JSON.stringify(
       defaultAttributes,
       null,
       2
@@ -88,7 +88,7 @@ var generateTypes = (iconName, iconPackage) => {
     `;
     writeFileSync(path.resolve(targetDir, typesFileName), typeDefinitions, "utf-8");
   }
-  const vueReturnType = pkg === "vue-latest" ? "Icon;" : "Component;";
+  const vueReturnType = pkg === "vue-latest" ? "Icon;" : pkg === "static" ? "string" : "Component;";
   appendFileSync(
     path.resolve(targetDir, typesFileName),
     `export declare const ${iconName}: ${pkg === "react" ? "MeisterIcon;" : vueReturnType}
