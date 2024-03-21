@@ -1,0 +1,8 @@
+
+  import createMeisterIcons from '../src/createMeisterIcons';
+
+  const ParallelogramToolB = createMeisterIcons("parallelogram-tool-b", [["path",{"fill":"currentColor","d":"M6.5 18.45h11v1.5h-11v-1.5Zm2-14.4h7v1.5h-7v-1.5Zm9.438 2.316 2 11-1.476.268-2-11 1.476-.268Zm-10.4.268-2 11-1.476-.268 2-11 1.476.268Z","key":"072b427ca6dade2ee8742bf86c21986e5f9076ac"}],["path",{"fill":"currentColor","d":"M6.8 6.5a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4Z","key":"db1c462793546946ea006964e160d4e7fe0dd47b"}],["path",{"fill":"currentColor","d":"M6.8 3.85a.95.95 0 1 0 0 1.9.95.95 0 0 0 0-1.9Zm-2.45.95a2.45 2.45 0 1 1 4.9 0 2.45 2.45 0 0 1-4.9 0Zm.45 16.1a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4Z","key":"fe24d2f45f6c88ad219602c79dcf3bc7e01bfaef"}],["path",{"fill":"currentColor","d":"M4.8 18.25a.95.95 0 1 0 0 1.9.95.95 0 0 0 0-1.9Zm-2.45.95a2.45 2.45 0 1 1 4.9 0 2.45 2.45 0 0 1-4.9 0Zm16.85 1.7a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4Z","key":"087ed8c9894e568f363785107609a071a092b110"}],["path",{"fill":"currentColor","d":"M19.2 18.25a.95.95 0 1 0 0 1.9.95.95 0 0 0 0-1.9Zm-2.45.95a2.45 2.45 0 1 1 4.9 0 2.45 2.45 0 0 1-4.9 0Zm.45-12.7a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4Z","key":"bc9aa05f503bfdcb49e0d5812df6e4190176af4f"}],["path",{"fill":"currentColor","d":"M17.2 3.85a.95.95 0 1 0 0 1.9.95.95 0 0 0 0-1.9Zm-2.45.95a2.45 2.45 0 1 1 4.9 0 2.45 2.45 0 0 1-4.9 0Z","key":"fd2aac45a670a36f44ca776fcd2f8a754b054d6d"}]])
+
+
+  export default ParallelogramToolB
+  

@@ -20,7 +20,7 @@
     "lib"
   ],
   "scripts": {
-    "build:icons": "rm -r ./icons && build-icons --pkg=../vue",
+    "build:icons": "rm -r ./icons && build-icons --pkg=vue --outputDir=../../vue",
     "patch": "pnpm version patch",
     "bundle": "rollup -c",
     "build": "pnpm i && pnpm run build:icons && pnpm run bundle"

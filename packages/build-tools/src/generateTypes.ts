@@ -8,9 +8,9 @@ const defaultAttributes = {
   fill: "currentColor",
 };
 
-export default (iconName: string, iconPackage: string) => {
-  const currentDir = getCurrentDir(import.meta.url);
-  const targetDir = path.resolve(currentDir, `../../../${iconPackage}/lib`);
+export default (iconName: string, iconPackage: string,outputDir:string) => {
+  
+  const targetDir = path.resolve(`${outputDir}/lib`);
 
   let pkg = (iconPackage.includes('../'))
     ? iconPackage.replaceAll('../', '') : iconPackage

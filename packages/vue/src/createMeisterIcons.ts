@@ -1,8 +1,8 @@
-import { Component } from "vue";
+import { Component,VueElement } from "vue";
 import defaultAttributes from "./defaultAttributes";
 
 export type IconNode = [
-  elementName: keyof Element,
+  elementName: keyof VueElement,
   attrs: Record<string, string>
 ][];
 
@@ -28,6 +28,7 @@ export default (iconName: string, iconNode: IconNode): Component => ({
           ...defaultAttributes,
           ...data.attrs,
         },
+        ...props
       },
       [
         ...iconNode.map(([tag, attrs]) => createElement(tag, { attrs })),

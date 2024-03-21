@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const ChevronBreakLeft = createMeisterIcons("chevron-break-left", [["path",{"fill":"currentColor","d":"M16.88 5.87a.75.75 0 0 1 0 1.06l-4.9 4.9-.53-.53.53.53a.24.24 0 0 0-.08.17.24.24 0 0 0 .08.17l-.53.53.53-.53 4.9 4.9a.75.75 0 1 1-1.06 1.06l-4.9-4.9a1.716 1.716 0 0 1 0-2.46l4.9-4.9a.75.75 0 0 1 1.06 0Zm-9.23-.62A.75.75 0 0 1 8.4 6v12a.75.75 0 0 1-1.5 0V6a.75.75 0 0 1 .75-.75Z","key":"734f5c499f2e2f35a2798e39862e84d8c2c6b2ea"}]])
+  const ChevronBreakLeft = createMeisterIcons("chevron-break-left", [["path",{"fill":"currentColor","d":"M16.88 5.87a.75.75 0 0 1 0 1.06l-4.9 4.9-.53-.53.53.53a.24.24 0 0 0-.08.17.24.24 0 0 0 .08.17l-.53.53.53-.53 4.9 4.9a.75.75 0 1 1-1.06 1.06l-4.9-4.9a1.716 1.716 0 0 1 0-2.46l4.9-4.9a.75.75 0 0 1 1.06 0Zm-9.23-.62A.75.75 0 0 1 8.4 6v12a.75.75 0 0 1-1.5 0V6a.75.75 0 0 1 .75-.75Z","key":"1a6cb951abc716fbb91d05a3044b132cd98a0dce"}]])
 
 
   export default ChevronBreakLeft

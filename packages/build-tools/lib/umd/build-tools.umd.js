@@ -2,9 +2,8 @@ import { appendFileSync, existsSync, mkdirSync, writeFileSync, readdirSync, read
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-var generateExportFile = (iconFile, pkg = "react") => {
-  const currentDir = getCurrentDir(import.meta.url);
-  const targetDir = path.resolve(currentDir, `../../../${pkg}/icons`);
+var generateExportFile = (iconFile, outputDir) => {
+  const targetDir = path.resolve(`${outputDir}/icons`);
   const importIconString = `export {default as  ${toPascalCase(
     iconFile
   )}} from './${toPascalCase(iconFile)}';
@@ -12,11 +11,10 @@ var generateExportFile = (iconFile, pkg = "react") => {
   appendFileSync(path.resolve(targetDir, `index.ts`), importIconString, "utf-8");
 };
 
-var generateIconFile = (iconNodes, iconPackage = "react") => {
+var generateIconFile = (iconNodes, outputDir) => {
   const name = iconNodes[0];
   const paths = iconNodes[1];
-  const currentDir = getCurrentDir(import.meta.url);
-  const targetDir = path.resolve(currentDir, `../../../${iconPackage}/icons`);
+  const targetDir = path.resolve(`${outputDir}/icons`);
   if (!existsSync(targetDir)) {
     mkdirSync(targetDir);
   }
@@ -38,9 +36,8 @@ const defaultAttributes = {
   viewBox: "0 0 24 24",
   fill: "currentColor"
 };
-var generateTypes = (iconName, iconPackage) => {
-  const currentDir = getCurrentDir(import.meta.url);
-  const targetDir = path.resolve(currentDir, `../../../${iconPackage}/lib`);
+var generateTypes = (iconName, iconPackage, outputDir) => {
+  const targetDir = path.resolve(`${outputDir}/lib`);
   let pkg = iconPackage.includes("../") ? iconPackage.replaceAll("../", "") : iconPackage;
   const vuePackage = pkg === "static" ? "static" : pkg === "vue" ? "vue" : "vue-latest";
   const typesFileName = `meistericons-${pkg === "react" ? "react" : vuePackage}.d.ts`;

@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const ArrowRight = createMeisterIcons("arrow-right", [["path",{"fill":"currentColor","d":"M17.738 12.1a.75.75 0 0 1-.75.75h-10a.75.75 0 0 1 0-1.5h10a.75.75 0 0 1 .75.75Z","key":"cf83b72fafdd3c2ab2db7c1503e68cfde9727f44"}],["path",{"fill":"currentColor","d":"m16.258 11.932-3.786-3.587a.75.75 0 0 1 1.031-1.09l3.808 3.608.007.007a1.535 1.535 0 0 1 0 2.16l-.007.008-3.8 3.7a.75.75 0 1 1-1.047-1.075l3.794-3.694c.001-.002.005-.007.005-.019a.033.033 0 0 0-.005-.018Z","key":"2452dea0b070dd3f09dd98fcc995bb8b27a2a65d"}]])
+  const ArrowRight = createMeisterIcons("arrow-right", [["path",{"fill":"currentColor","d":"M17.738 12.1a.75.75 0 0 1-.75.75h-10a.75.75 0 0 1 0-1.5h10a.75.75 0 0 1 .75.75Z","key":"c0eb74fa83134f015a74bd179f3f58b3f32acf10"}],["path",{"fill":"currentColor","d":"m16.258 11.932-3.786-3.587a.75.75 0 0 1 1.031-1.09l3.808 3.608.007.007a1.535 1.535 0 0 1 0 2.16l-.007.008-3.8 3.7a.75.75 0 1 1-1.047-1.075l3.794-3.694c.001-.002.005-.007.005-.019a.033.033 0 0 0-.005-.018Z","key":"7076ebcbe66110ce9cffd93660d0f38900ba7ef3"}]])
 
 
   export default ArrowRight

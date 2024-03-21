@@ -1,3 +1,5 @@
+declare module '@meistericons/static'
+
 export declare const Add: string
 export declare const AddBlock: string
 export declare const AddBlockB: string

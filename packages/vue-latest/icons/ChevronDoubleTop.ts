@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const ChevronDoubleTop = createMeisterIcons("chevron-double-top", [["path",{"fill":"currentColor","d":"M12.1 14.026Zm-.1.097-3.12 3.12a.75.75 0 1 1-1.06-1.06l3.2-3.2a1.45 1.45 0 0 1 1.018-.446c.383 0 .742.173.984.487l3.158 3.158a.75.75 0 0 1-1.06 1.06L12 14.124Zm.1-6.097Zm-.1.097-3.12 3.12a.75.75 0 1 1-1.06-1.06l3.2-3.2a1.45 1.45 0 0 1 1.018-.446c.383 0 .742.173.984.487l3.158 3.158a.75.75 0 0 1-1.06 1.06L12 8.124Z","key":"38a835e8553d278d49d01a0a33ec0f56667242cd"}]])
+  const ChevronDoubleTop = createMeisterIcons("chevron-double-top", [["path",{"fill":"currentColor","d":"M12.1 14.026Zm-.1.097-3.12 3.12a.75.75 0 1 1-1.06-1.06l3.2-3.2a1.45 1.45 0 0 1 1.018-.446c.383 0 .742.173.984.487l3.158 3.158a.75.75 0 0 1-1.06 1.06L12 14.124Zm.1-6.097Zm-.1.097-3.12 3.12a.75.75 0 1 1-1.06-1.06l3.2-3.2a1.45 1.45 0 0 1 1.018-.446c.383 0 .742.173.984.487l3.158 3.158a.75.75 0 0 1-1.06 1.06L12 8.124Z","key":"06e4356798b4acbbe74da93851e7a46f78b5eaab"}]])
 
 
   export default ChevronDoubleTop

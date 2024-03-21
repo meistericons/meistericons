@@ -20,7 +20,7 @@
     "fonts": "node ./src/generateFonts.js && fantasticon -n mni -p mni ./fontIcons -o ./fonts && rm -r ./fontIcons",
     "patch": "pnpm version patch",
     "bundle": "rollup -c",
-    "build": "pnpm i && pnpm run fonts && node ./src/build.js && pnpm run bundle"
+    "build": "pnpm i && pnpm run fonts && pnpm run bundle"
   },
   "files": [
     "fonts",

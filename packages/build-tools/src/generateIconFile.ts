@@ -2,12 +2,11 @@ import { existsSync, mkdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { getCurrentDir, toPascalCase } from "../index";
 
-export default (iconNodes: (string | (string | Record<string, string>)[][])[], iconPackage: string = 'react') => {
+export default (iconNodes: (string | (string | Record<string, string>)[][])[], outputDir:string) => {
   const name = (iconNodes)[0] as string;
   const paths = (iconNodes)[1];
 
-  const currentDir = getCurrentDir(import.meta.url);
-  const targetDir = path.resolve(currentDir, `../../../${iconPackage}/icons`);
+  const targetDir = path.resolve(`${outputDir}/icons`);
 
   if (!existsSync(targetDir)) {
     mkdirSync(targetDir);

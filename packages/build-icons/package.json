@@ -23,7 +23,7 @@
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "patch": "pnpm version patch",
-    "build:icons": "node ./index.js --pkg=../react",
+    "build:icons": "node ./index.js --pkg=react --outputDir=./react",
     "bundle": "rollup -c",
     "build": "pnpm i && pnpm run build:icons && pnpm run bundle"
   },

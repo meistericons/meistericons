@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const ChevronSquareTopB = createMeisterIcons("chevron-square-top-b", [["path",{"fill":"currentColor","d":"M9 3h6c3.3 0 6 2.7 6 6v6c0 3.3-2.7 6-6 6H9c-3.3 0-6-2.7-6-6V9c0-3.4 2.6-6 6-6Z","key":"3f0ec8fdb433aa8617bafea0f50327202bba4c42"}],["path",{"fill":"currentColor","d":"M9 3.75C6.014 3.75 3.75 6.014 3.75 9v6c0 2.886 2.364 5.25 5.25 5.25h6c2.886 0 5.25-2.364 5.25-5.25V9c0-2.886-2.364-5.25-5.25-5.25H9ZM2.25 9c0-3.814 2.936-6.75 6.75-6.75h6c3.714 0 6.75 3.036 6.75 6.75v6c0 3.714-3.036 6.75-6.75 6.75H9c-3.714 0-6.75-3.036-6.75-6.75V9Z","key":"6b1fef9efc8a489ccd3a533c7de15e6e2fb32901"}],["path",{"fill":"#fff","d":"m11.9 11.06-3.07 3.07a.75.75 0 0 1-1.06-1.06l3.2-3.2c.3-.301.718-.378 1.033-.356.31.023.702.154.968.496l3.16 3.16a.75.75 0 1 1-1.061 1.06l-3.17-3.17Z","key":"8bf1d88430ac72618441fa55d3cf7de08f6e0a85"}]])
+  const ChevronSquareTopB = createMeisterIcons("chevron-square-top-b", [["path",{"fill":"currentColor","d":"M9 3h6c3.3 0 6 2.7 6 6v6c0 3.3-2.7 6-6 6H9c-3.3 0-6-2.7-6-6V9c0-3.4 2.6-6 6-6Z","key":"6384a564b1f645a11f07efa093eea513587d99a1"}],["path",{"fill":"currentColor","d":"M9 3.75C6.014 3.75 3.75 6.014 3.75 9v6c0 2.886 2.364 5.25 5.25 5.25h6c2.886 0 5.25-2.364 5.25-5.25V9c0-2.886-2.364-5.25-5.25-5.25H9ZM2.25 9c0-3.814 2.936-6.75 6.75-6.75h6c3.714 0 6.75 3.036 6.75 6.75v6c0 3.714-3.036 6.75-6.75 6.75H9c-3.714 0-6.75-3.036-6.75-6.75V9Z","key":"a282eb43b8bbe176592e9e7c5214e0cc186cc7db"}],["path",{"fill":"#fff","d":"m11.9 11.06-3.07 3.07a.75.75 0 0 1-1.06-1.06l3.2-3.2c.3-.301.718-.378 1.033-.356.31.023.702.154.968.496l3.16 3.16a.75.75 0 1 1-1.061 1.06l-3.17-3.17Z","key":"482afd4fd82117611082c437acddbef590671bba"}]])
 
 
   export default ChevronSquareTopB

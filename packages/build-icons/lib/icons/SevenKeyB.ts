@@ -1,0 +1,8 @@
+
+  import createMeisterIcons from '../src/createMeisterIcons';
+
+  const SevenKeyB = createMeisterIcons("seven-key-b", [["path",{"fill":"currentColor","d":"M17.9 6.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z","key":"2aaf109be280d16db415b3aa6977b42e72a85159"}],["path",{"fill":"currentColor","d":"M17.9 4a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0ZM12 6.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z","key":"79fad3eea7a4fda754eacad6590bc1bf7cc4475f"}],["path",{"fill":"currentColor","d":"M12 4a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0ZM6.1 6.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z","key":"8d7c830d35d18404203f44773bc956e018e2192e"}],["path",{"fill":"currentColor","d":"M6.1 4a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0Zm13.8 8.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z","key":"8ac4447e80a2b6db52c7d50898b8e72177951fbf"}],["path",{"fill":"currentColor","d":"M17.9 11a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0ZM12 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z","key":"e2c9bc78bf62b83289c84b006e730ee0cd6db7a3"}],["path",{"fill":"currentColor","d":"M12 11a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0Zm-3.9 1.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z","key":"96aa8cf6c1426f3ce791374b2b049adfc92a6d15"}],["path",{"fill":"currentColor","d":"M6.1 11a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0Zm7.9 8.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z","key":"59925f9d02f39a18182e2f1d10434ac4fddcff51"}],["path",{"fill":"currentColor","d":"M12 18a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0Z","key":"56d5aca4486236b509e85b6caaef94a3621c0a91"}]])
+
+
+  export default SevenKeyB
+  

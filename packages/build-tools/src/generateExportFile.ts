@@ -2,9 +2,8 @@ import { appendFileSync } from "node:fs";
 import path from "node:path";
 import { getCurrentDir, toPascalCase } from "../index";
 
-export default (iconFile: string, pkg: string = 'react') => {
-  const currentDir = getCurrentDir(import.meta.url);
-  const targetDir = path.resolve(currentDir, `../../../${pkg}/icons`)
+export default (iconFile: string, outputDir:string) => {
+  const targetDir = path.resolve(`${outputDir}/icons`)
 
   const importIconString = `export {default as  ${toPascalCase(
     iconFile
