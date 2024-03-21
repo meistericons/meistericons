@@ -1,5 +1,7 @@
 # @meistericons/build-icons
 
+>[!IMPORTANT]
+>
 >⚠️ Package under maintainance. **Intended for internal use**
 
 - Create icons for react,vue and vue3 from svgs

@@ -26,6 +26,9 @@
   "main": "./lib/cjs/react.cjs.min.cjs",
   "main:umd": "./lib/umd/react.umd.min.js",
   "module": "./lib/es/react.es.min.mjs",
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "meistericons",
     "mni",

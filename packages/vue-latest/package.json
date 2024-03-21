@@ -16,6 +16,7 @@
     "type": "git",
     "directory": "/packages/vue-latest"
   },
+  "files": ["lib"],
   "scripts": {
     "build:icons": "rm -r ./icons && build-icons --pkg=../vue-latest",
     "patch": "pnpm version patch",
