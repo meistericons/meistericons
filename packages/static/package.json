@@ -1,6 +1,6 @@
 {
   "name": "@meistericons/static",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Static assets for meistericons.",
   "author": "Rahul Raj Dahal",
   "type": "module",
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "fonts": "node ./src/generateFonts.js && fantasticon -n mni -p mni ./fontIcons -o ./fonts && rm -r ./fontIcons",
-    "optimize:icons":"node ./src/optimizeIcons.js",
+    "optimize:icons": "node ./src/optimizeIcons.js",
     "patch": "pnpm version patch",
     "bundle": "rollup -c",
     "build": "pnpm i && pnpm run optimize:icons && pnpm run fonts && pnpm run bundle"
