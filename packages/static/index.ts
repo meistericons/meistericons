@@ -1,1 +1,1 @@
-export * from './icons';
+console.log('icons')

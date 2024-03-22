@@ -1,6 +1,6 @@
 {
   "name": "@meistericons/static",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Static assets for meistericons.",
   "author": "Rahul Raj Dahal",
   "type": "module",
@@ -24,7 +24,6 @@
   },
   "files": [
     "fonts",
-    "lib",
     "icons",
     "icon-nodes.json"
   ],
