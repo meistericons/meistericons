@@ -18,9 +18,10 @@
   },
   "scripts": {
     "fonts": "node ./src/generateFonts.js && fantasticon -n mni -p mni ./fontIcons -o ./fonts && rm -r ./fontIcons",
+    "optimize:icons":"node ./src/optimizeIcons.js",
     "patch": "pnpm version patch",
     "bundle": "rollup -c",
-    "build": "pnpm i && pnpm run fonts && pnpm run bundle"
+    "build": "pnpm i && pnpm run optimize:icons && pnpm run fonts && pnpm run bundle"
   },
   "files": [
     "fonts",
@@ -43,6 +44,8 @@
     "fantasticon": "^2.0.0",
     "rollup": "^4.13.0",
     "rollup-plugin-esbuild": "^6.1.1",
-    "rollup-plugin-visualizer": "^5.12.0"
+    "rollup-plugin-visualizer": "^5.12.0",
+    "svgo": "^3.2.0",
+    "svgson": "^5.3.1"
   }
 }
