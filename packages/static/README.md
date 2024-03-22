@@ -9,35 +9,28 @@ Collection of svg icons.
 ### CDN
 
 ```bash
-<link rel="https://unpkg.com/@meistericons/static@latest">
+<link rel="stylesheet" href="https://unpkg.com/@meistericons/static@latest/fonts/mni.css">
 ```
 
-### CSS
-
-```bash
-<link rel="https://unpkg.com/@meistericons/static/fonts/mni.css@latest">
-```
-
-### Web Fonts
+### Fonts
 
 #### EOT
 
 ```bash
-<link rel="https://unpkg.com/@meistericons/static/fonts/mni.eot@latest">
+<link rel="https://unpkg.com/@meistericons/static@latest/fonts/mni.eot">
 ```
 
 #### WOFF
+
 ```bash
-<link rel="https://unpkg.com/@meistericons/static/fonts/mni.woff@latest">
+<link rel="https://unpkg.com/@meistericons/static/fonts@latest/mni.woff">
 ```
 
 #### WOFF2
 
 ```bash
-<link rel="https://unpkg.com/@meistericons/static/fonts/mni.woff2@latest">
+<link rel="https://unpkg.com/@meistericons/static/fonts@latest/mni.woff2">
 ```
-
-
 
 ### npm
 
@@ -52,3 +45,5 @@ import {Airpods} from '@meistericons/static'
 
 <Airpods/>
 ```
+
+Made with 💝 in Kathmandu, Nepal

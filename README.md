@@ -75,3 +75,5 @@ import {ArrowDown} from "meistericons-vue-latest"
 </template>
 
 ```
+
+Made with 💝 in Kathmandu, Nepal

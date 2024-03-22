@@ -17,9 +17,13 @@ npm install @meistericons/vue-latest --save-dev
 ## Usage
 
 ```vue
-import {Airpods} from '@meistericons/vue-latest'
+<script>
+import {ArrowDown} from "meistericons-vue-latest"
+</script>
 
-export default function App() {
-    return <Airpods/>
-}
+<template>
+    <ArrowDown/>
+</template>
 ```
+
+Made with 💝 in Kathmandu, Nepal
