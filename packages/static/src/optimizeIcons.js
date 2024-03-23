@@ -22,8 +22,11 @@ readdirSync(iconsDir).forEach((category) => {
         const parsedSvg = parseSync(svgCode);
 
         parsedSvg.children.forEach((child) => {
-        if (child.attributes.fill === "#000") {
+        if (child.attributes.fill === "black") {
           child.attributes.fill = "currentColor";
+        }
+        if (child.attributes.fill === "white") {
+          child.attributes.fill = "#ffffff";
         }
       });
 
