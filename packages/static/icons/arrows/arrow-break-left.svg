@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0b95ea12ae58394364a012907460312f00bc345272d9a9ec7aa15a92ab3053c2
-size 494
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+  <path fill="#000" fill-rule="evenodd" d="M19.7 12a.75.75 0 0 1-.75.75H5.05a.75.75 0 0 1 0-1.5h13.9a.75.75 0 0 1 .75.75" clip-rule="evenodd"/>
+  <path fill="#000" fill-rule="evenodd" d="M10.875 5.764c.296.29.3.765.01 1.061L5.98 11.83a.24.24 0 0 0-.08.17.24.24 0 0 0 .08.17l4.9 4.9a.75.75 0 0 1-1.06 1.06l-4.9-4.9a1.716 1.716 0 0 1-.003-2.457l4.897-4.998a.75.75 0 0 1 1.061-.01m8.075-.515a.75.75 0 0 1 .75.75v12a.75.75 0 0 1-1.5 0V6a.75.75 0 0 1 .75-.75" clip-rule="evenodd"/>
+</svg>

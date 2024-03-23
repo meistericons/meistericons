@@ -39,14 +39,7 @@ readdirSync(iconsDir).forEach((category) => {
                 "removeDimensions",
                 "sortAttrs",
                 "prefixIds",
-                {
-                    name: "removeAttrs",
-                    params: {
-                        attrs: ["fill-rule", "clip-rule"],
-                        elemSeparator: ":",
-                        preserveCurrentColor: false,
-                    },
-                },
+              "mergePaths"
             ],
         });
         writeFileSync(resolve(iconsDir, `${category}/${iconFile}.svg`), optimizedResult.data, 'utf-8')

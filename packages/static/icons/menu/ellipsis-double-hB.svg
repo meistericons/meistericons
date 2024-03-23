@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4ccc0c31b66baabe8471a6f2d133080c7a08c2db10d43a3da2a0d4a50a321d07
-size 1000
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+  <path fill="#000" d="M17.9 10a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+  <path fill="#000" fill-rule="evenodd" d="M17.9 7.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" clip-rule="evenodd"/>
+  <path fill="#000" d="M12 10a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+  <path fill="#000" fill-rule="evenodd" d="M12 7.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" clip-rule="evenodd"/>
+  <path fill="#000" d="M6.1 10a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+  <path fill="#000" fill-rule="evenodd" d="M6.1 7.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" clip-rule="evenodd"/>
+  <path fill="#000" d="M17.9 17a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+  <path fill="#000" fill-rule="evenodd" d="M17.9 14.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" clip-rule="evenodd"/>
+  <path fill="#000" d="M12 17a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+  <path fill="#000" fill-rule="evenodd" d="M12 14.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" clip-rule="evenodd"/>
+  <path fill="#000" d="M6.1 17a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+  <path fill="#000" fill-rule="evenodd" d="M6.1 14.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" clip-rule="evenodd"/>
+</svg>
