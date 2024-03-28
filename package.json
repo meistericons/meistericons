@@ -1,6 +1,7 @@
 {
   "name": "@meistericons/meistericons",
-  "version": "0.0.17",
+  "private":true,
+    "version": "0.0.17",
   "description": "Meistericons, an icon library,",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

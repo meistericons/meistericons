@@ -20,9 +20,11 @@
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "patch": "pnpm version patch",
+    "build:tags": "node ./src/generateTags.js",
+    "build:categories": "node ./src/generateCategories.js",
     "build:icon-nodes": "node ./src/generateIconNodes.js",
     "bundle": "rollup -c",
-    "build": "pnpm i && pnpm run build:icon-nodes && pnpm run bundle"
+    "build": "pnpm i && pnpm run build:icon-nodes && pnpm run build:tags && pnpm run build:categories && pnpm run bundle"
   },
   "files": [
     "lib"
